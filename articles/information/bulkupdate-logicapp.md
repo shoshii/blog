@@ -27,13 +27,13 @@ Cosmos DB においては、 UPDATE 文を使ったデータの一括更新が�
 [
     {
         "name": "Alice",
-        "age": 21,
+        "age": 22,
         "userid": 1,
         "time": "2019-05-02 15:23:50.0000000"
     },
     {
         "name": "Bob",
-        "age": 22,
+        "age": 23,
         "userid": 2,
         "time": "2020-05-02 15:23:50.0000000"
     }
@@ -169,6 +169,9 @@ JSON の解析から「_self」、関数から 「utcNow()」を選択します�
 
 ![](bulkupdate-logicapp/logicapp-exec-1.png)
 
+全ドキュメントが更新されているのを確認できます。
+![](bulkupdate-logicapp/result-1.png)
+
 ## まとめ
 
 以上が、 Logic Apps と Cosmos DB のストアド プロシージャを用いて、データの一括更新を実装する方法です。
@@ -184,7 +187,7 @@ JSON の解析から「_self」、関数から 「utcNow()」を選択します�
 * [プロビジョニングされたスループット (RU/秒) のスケーリングに関するベスト プラクティス](https://learn.microsoft.com/ja-jp/azure/cosmos-db/scaling-provisioned-throughput-best-practices)
 
 
-最後までお読みいただき、誠にありがとうございました。
+最後までお読みくださり、誠にありがとうございました。
 この記事の内容が少しでも皆様のお役に立ちましたら幸いです。
 
 ご不明な点がありましたら、 Azure ポータルよりいつでもお気軽にお問い合わせください！
