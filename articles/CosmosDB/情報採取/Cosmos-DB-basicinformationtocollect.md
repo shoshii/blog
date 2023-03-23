@@ -68,7 +68,8 @@ https://support.microsoft.com/en-us/help/22878/windows-10-record-steps
 
 ##  Activity ID
 
-Cosmos DB に接続・操作するアプリケーションのログで Activity ID を取得していない場合、対象の Cosmos DB アカウントに対して診断設定をすることで Log Analytics から Activity ID 含む診断ログの取得が可能です。
+Cosmos DB に接続・操作するアプリケーションのログで Activity ID を取得していない場合、対象の Cosmos DB アカウントに対して診断設定をすることで Log Analytics 等から Activity ID 含む診断ログの取得が可能です。
+
 
 診断ログの設定方法は https://learn.microsoft.com/ja-jp/azure/cosmos-db/monitor-resource-logs?tabs=azure-portal を参照ください。
 
