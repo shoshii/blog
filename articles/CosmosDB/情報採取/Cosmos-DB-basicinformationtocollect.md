@@ -74,6 +74,9 @@ Cosmos DB に接続・操作するアプリケーションのログで Activity 
 診断ログの設定方法は https://learn.microsoft.com/ja-jp/azure/cosmos-db/monitor-resource-logs?tabs=azure-portal を参照ください。
 
 下記はリクエストの種類 (Query / Data Plane / Control Plane) ならびに診断ログの設定 (Azure diagnostics or Resource specific) に応じたログ取得のクエリならびにその出力結果（サンプル）となります。
+>[!NOTE]
+>Azure diagnostics を選択すると、各種の診断情報が１つのテーブル（AzureDiagnostics) に出力されます。各種の診断は、 Category カラムを指定して個別に抽出が可能です。
+>一方で、 Resource specific を選択すると、各種の診断情報がそれぞれ別のテーブルに出力されます。
 
 ### <span style="text-decoration:underline">Query Requests</span>
 
