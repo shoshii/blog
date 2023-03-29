@@ -4,6 +4,10 @@ date: 2023-03-28 15:00:00
 categories: [Cosmos DB,トラブルシューティング]
 tags:
   - NoSQL
+  - Troubleshooting
+  - Java SDK
+  - .NET SDK
+  - Diagnostics
 ---
 
 こんにちは。Cosmos DB サポートチームの星井と申します。
@@ -21,7 +25,7 @@ Azure ポータルの Cosmos DB 管理画面から、
 
 ## Azure サービスの状態確認
 
-[Azure の状態](ttps://azure.status.microsoft/ja-jp/status) にて、 Azure サービスの状態をリージョンごとに確認することが可能です。
+[Azure の状態](https://azure.status.microsoft/ja-jp/status) にて、 Azure サービスの状態をリージョンごとに確認することが可能です。
 「Databases」＞「Azure Cosmos DB」の行にて、ご利用中のリージョンにチェック以外のマークがついている場合、当該リージョンの Cosmos DB サービスで何らかの問題が発生している可能性があります。
 お手数ですが、Azure サポートまでお問い合わせください。
 
@@ -40,7 +44,6 @@ Cosmos DB サービスに問題がある場合に発生し得るエラーの切�
 ## Cosmos DB SDK が出力しているエラーコードの確認
 
 アプリケーションにて Cosmos DB .NET/Java SDK を利用している場合、エラーコードやエラーメッセージ、診断情報を用いて問題の詳細な切り分けが可能です。
-
 各種エラーに応じた問題の切り分け方法の詳細は、以下の公開記事に記載されています。
 
 ### .NET SDK
@@ -59,7 +62,7 @@ Cosmos DB サービスに問題がある場合に発生し得るエラーの切�
 
 ## お問い合わせに際して
 
-[Cosmos DB サポートへのお問い合わせ](https://learn.microsoft.com/ja-jp/azure/azure-portal/supportability/how-to-create-azure-support-request)に際、以下の弊チームブログに記載の情報を提供くださいますと、より迅速に調査を進めることが可能になります。
+[Cosmos DB サポートへのお問い合わせ](https://learn.microsoft.com/ja-jp/azure/azure-portal/supportability/how-to-create-azure-support-request)に際し、以下の弊チームブログに記載の情報を提供くださいますと、より迅速に調査を進めることが可能になります。
 
 * [Cosmos DB 基本情報採取](../%E6%83%85%E5%A0%B1%E6%8E%A1%E5%8F%96/Cosmos-DB-basicinformationtocollect.md)
 
@@ -68,6 +71,6 @@ Cosmos DB サービスに問題がある場合に発生し得るエラーの切�
 
 ## まとめ
 
-最後までお読みくださりありがとうございました。この記事では、アプリケーションが Cosmos DB に接続できない場合において、原因が Cosmos DB サービスにあるかの判別方法をご案内させていただきました。
+最後までお読みくださりありがとうございました。この記事では、アプリケーションが Cosmos DB for NoSQL に接続できない場合において、原因が Cosmos DB サービスにあるかの判別方法をご案内させていただきました。
 Cosmos DB に関するトラブルが発生してしまった際のご参考になりましたら幸いです。
 ご不明な点がございましたら、お気軽に上記サポート窓口までお問い合わせください。よろしくお願いいたします。
