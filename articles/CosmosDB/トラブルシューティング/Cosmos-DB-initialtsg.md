@@ -32,7 +32,7 @@ Azure ポータルの Cosmos DB 管理画面から、
 ![Azure の状態](./Cosmos-DB-initialtsg/azure-status.png)
 
 > [!WARNING]
-> Azure サービスの状態はリージョン全体で問題が発生している場合に更新されます。個別の Cosmos DB アカウントが不調な場合は、まずCosmos DB の可用性をご確認ください。
+> Azure サービスの状態はリージョン全体で問題が発生している場合に更新されます。個別の Cosmos DB アカウントが不調な場合は、まず Cosmos DB の可用性をご確認ください。
 
 ## Cosmos DB サービスのメトリクスやログの確認
 
