@@ -66,7 +66,7 @@ Cosmos DB サービスに問題がある場合に発生し得るエラーの切�
 
 [Cosmos DB サポートへのお問い合わせ](https://learn.microsoft.com/ja-jp/azure/azure-portal/supportability/how-to-create-azure-support-request)に際し、以下の弊チームブログに記載の情報を提供くださいますと、より迅速に調査を進めることが可能になります。
 
-* [Cosmos DB 基本情報採取](../%E6%83%85%E5%A0%B1%E6%8E%A1%E5%8F%96/Cosmos-DB-basicinformationtocollect.md)
+* [Cosmos DB 基本情報採取](../../情報採取/Cosmos-DB-basicinformationtocollect/)
 
 > [!NOTE]
 > アプリケーション側の情報も合わせて提供いただけますと、問題の原因の早期切り分けに有用です。
