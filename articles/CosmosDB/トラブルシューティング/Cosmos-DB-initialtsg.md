@@ -13,7 +13,7 @@ tags:
 こんにちは。Cosmos DB サポートチームの星井と申します。
 
 本記事では アプリケーションから Cosmos DB for NoSQL に繋がらない場合、問題が Cosmos DB サービス側に起因するか否かの切り分け方法をご案内します。
-
+<!--more-->
 ## Cosmos DB の可用性の確認
 
 Azure ポータルの Cosmos DB 管理画面から、
@@ -31,6 +31,8 @@ Azure ポータルの Cosmos DB 管理画面から、
 
 ![Azure の状態](./Cosmos-DB-initialtsg/azure-status.png)
 
+> [!WARNING]
+> Azure サービスの状態はリージョン全体で問題が発生している場合に更新されます。個別の Cosmos DB アカウントが不調な場合は、まずCosmos DB の可用性をご確認ください。
 
 ## Cosmos DB サービスのメトリクスやログの確認
 
@@ -57,7 +59,7 @@ Cosmos DB サービスに問題がある場合に発生し得るエラーの切�
 * [Azure Cosmos DB Java v4 SDK の要求タイムアウト例外を診断してトラブルシューティングする](https://learn.microsoft.com/ja-jp/azure/cosmos-db/nosql/troubleshoot-java-sdk-request-timeout)
 
 > [!NOTE]
-> Cosmos DB .NET/Java SDK は、診断情報として接続先のレプリカ情報や、詳細なエラーコード、クライアント側のリソース情報（ＣＰＵやメモリの使用率）も含めて出力します。
+> Cosmos DB .NET/Java SDK は、診断情報として接続先のレプリカ情報や、詳細なエラーコード、クライアント側のリソース情報（CPU やメモリの使用率）も含めて出力します。
 > 全てのリクエストについて診断情報をログに記録するのはパフォーマンスの関係上非推奨ですが、エラーが発生した場合や応答に時間がかかった場合、これをログに記録しておくことをお勧めします。
 
 ## お問い合わせに際して
