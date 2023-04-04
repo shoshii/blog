@@ -12,7 +12,8 @@ tags:
 
 こんにちは。Cosmos DB サポートチームの星井と申します。
 
-本記事では アプリケーションから Cosmos DB for NoSQL に繋がらない場合、問題が Cosmos DB サービス側に起因するか否かの切り分け方法をご案内します。
+本記事では アプリケーションから Cosmos DB に繋がらない場合、問題が Cosmos DB サービス側に起因するか否かの切り分け方法をご案内します。
+なお SDK 観点の確認は Cosmos DB for NoSQL についての案内となっています。
 <!--more-->
 ## Cosmos DB の可用性の確認
 
