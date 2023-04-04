@@ -20,7 +20,11 @@ tags:
 Azure ポータルの Cosmos DB 管理画面から、
 分析情報＞可用性タブ にて、 Cosmos DB アカウントの可用性が確認可能です。
 サービスの可用性の値が 100% を下回っている場合、 Cosmos DB サービスで問題が発生している状況です。
-数分間以上この状態が継続してしまっている場合、お手数ですが、Azure サポートまでお問い合わせください。
+数分間以上この状態が継続している場合、後述の [Azure の状態](https://azure.status.microsoft/ja-jp/status) で問題が発生しているかご確認ください。
+
+次の方法で Azure サポートまでお問い合わせ可能です。
+
+[Cosmos DB サポートへのお問い合わせ](https://learn.microsoft.com/ja-jp/azure/azure-portal/supportability/how-to-create-azure-support-request)　
 
 ![Azure の状態](./Cosmos-DB-initialtsg/cosmos-insights-availability.png)
 
