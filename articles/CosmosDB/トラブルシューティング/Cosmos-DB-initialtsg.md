@@ -32,7 +32,8 @@ Azure ポータルの Cosmos DB 管理画面から、
 
 [Azure の状態](https://azure.status.microsoft/ja-jp/status) にて、 Azure サービスの状態をリージョンごとに確認することが可能です。
 「Databases」＞「Azure Cosmos DB」の行にて、ご利用中のリージョンにチェック以外のマークがついている場合、当該リージョンの Cosmos DB サービスで何らかの問題が発生している可能性があります。
-お手数ですが、Azure サポートまでお問い合わせください。
+問題が発生しているサービス・リージョンの障害情報は随時  [Azure の状態](https://azure.status.microsoft/ja-jp/status) で情報を提供しております。
+
 
 ![Azure の状態](./Cosmos-DB-initialtsg/azure-status.png)
 
