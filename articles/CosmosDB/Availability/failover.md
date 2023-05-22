@@ -12,9 +12,9 @@ tags:
 こんにちは。Cosmos DB サポートチームの星井と申します。
 
 この記事では、Cosmos DB における RTO, RPO, フェールオーバー（特にサーバー側で処理されるもの）について、典型的な事例をもとに説明します。
-Cosmos DB の可用性を設計するに際し、これらの情報がお役に立てましたら幸いです。
+Cosmos DB の可用性に関する設定や運用設計に際し、これらの情報がお役に立てましたら幸いです。
 
-詳細について把握されたい場合、以下の弊社公開記事、弊社アーキテクト/開発者によるビデオをご参照ください。
+本記事は、以下の弊社公開記事、弊社アーキテクト/開発者によるビデオを参考に執筆いたしました。本記事について詳細を確認されたい場合、ご参考になれば幸いです。
 
 * [Azure Cosmos DB を使用して高可用性を実現する](https://learn.microsoft.com/ja-jp/azure/cosmos-db/high-availability)
 * [Architecting Azure Cosmos DB for High Availability - Global User Group Dec. 2022](https://youtu.be/fg8n5SuUwRI)
