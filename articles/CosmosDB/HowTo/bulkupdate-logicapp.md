@@ -1,8 +1,8 @@
 ---
 title: Cosmos DB のデータを Logic Apps を用いて一括更新する方法
-date: 2023-02-14 12:00:00
+date: 2023-05-22 12:00:00
+categories: [Cosmos DB,HowTo]
 tags:
-  - Information
   - Cosmos DB
   - NoSQL API
   - Example
