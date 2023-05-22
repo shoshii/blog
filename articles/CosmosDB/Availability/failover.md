@@ -1,6 +1,6 @@
 ---
 title: Cosmos DB における RTO, RPO, フェールオーバーの考え方
-date: 2023-03-28 15:00:00
+date: 2023-05-22 11:00:00
 categories: [Cosmos DB, Availability]
 tags:
   - NoSQL
