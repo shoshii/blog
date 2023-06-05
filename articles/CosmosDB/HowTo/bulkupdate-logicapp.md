@@ -107,7 +107,7 @@ Marketplace にて「Logic Apps」で検索し、ロジック アプリを選択
 ![](bulkupdate-logicapp/logicapp-selectall-1.png)
 
 
-任意の接続名と、操作対象の Cosmos DB アカウント名、プライマリーキーの値を設定します。
+任意の接続名と、操作対象の Cosmos DB アカウント名、プライマリー キーの値を設定します。
 
 ![](bulkupdate-logicapp/logicapp-selectall-2.png)
 
