@@ -71,7 +71,7 @@ Cosmos DB アカウントに保管しているデータの RPO は、アカウ�
 バックアップについて、 Cosmos DB では継続的/定期的の2種類のバックアップがあります。既定の設定は定期的バックアップになっています。
 
 ・[継続的バックアップ](https://learn.microsoft.com/ja-jp/azure/cosmos-db/continuous-backup-restore-introduction)では、100 秒ごとに各リージョンがバックアップされます。 RPO は 100 秒となります。
-・[定期的なバックアップ](https://learn.microsoft.com/ja-jp/azure/cosmos-db/periodic-backup-restore-introduction)では、最小バックアップ間隔は 1 時間です。 RPO は設定次第ですが、最短で 1時間となります。
+・[定期的なバックアップ](https://learn.microsoft.com/ja-jp/azure/cosmos-db/periodic-backup-restore-introduction)では、最小バックアップ間隔は 1  時間です。 RPO は設定次第ですが、最短で 1時間となります。
 
 ### 整合性レベルについて
 
