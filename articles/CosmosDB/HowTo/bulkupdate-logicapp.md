@@ -136,7 +136,7 @@ Cosmos DB アカウント名、データベース ID、コレクション ID を
 ![](bulkupdate-logicapp/logicapp-parsejson-1.png)
 
 
-コンテンツに「現在のアイテム」を指定します。
+コンテンツに動的なアイテムの追加より「現在のアイテム」を指定します。
 「サンプルのペイロードを使用してスキーマを生成する」をクリックし、以下のように Cosmos DB のデータ エクスプローラー等で表示できる、ドキュメントの値を入力し完了をクリックします。
 
 ![](bulkupdate-logicapp/logicapp-parsejson-2.png)
